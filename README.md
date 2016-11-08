@@ -5,7 +5,7 @@
 - [開発フロー](workflow.md)
 - [サーバサイド](backend.md)
 - [フロントエンド](frontend.md)
-- [インフラ](infrasructure.md)
+- [インフラ](infrastructure.md)
 - [ミドルウェア](middleware.md)
 - [カルチャー](culture.md)
 
