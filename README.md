@@ -1,6 +1,8 @@
 # Engineer Learning Resources
 
-エンジニア向け教材集
+Wantedlyのソフトウェアエンジニアのインターンや社員として働き始める前に、勉強しておくとよい教材集
+
+## 目次
 
 - [開発フロー](workflow.md)
 - [サーバサイド](backend.md)
