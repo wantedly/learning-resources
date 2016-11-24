@@ -15,6 +15,8 @@ Railsのコンセプトを理解して、最低限のアプリを書けるよう
 - [Ruby Core API & Standard Library API](http://ruby-doc.org/) Rubyと標準ライブラリのドキュメント
 - [Ruby on Rails Documentation](http://api.rubyonrails.org/) RailsのAPIドキュメント
 - [RSpec](https://www.relishapp.com/rspec) テストフレームワークであるRSpecのドキュメント
+- [Better Specs](http://betterspecs.org) より良いRSpecを書くためのガイドライン
+- [Everyday Rails - RSpecによるRailsテスト入門](https://leanpub.com/everydayrailsrspec-jp/read) RailsのためのRSpecとしてステップ・バイ・ステップで説明されているので入門に適した一冊
 
 
 ### 参考リンク
