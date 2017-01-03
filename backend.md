@@ -32,11 +32,19 @@ Railsのコンセプトを理解して、最低限のアプリを書けるよう
 
 WantedlyではAPIサーバにGo言語を使うことがあります。
 
+### Gin
+
+GolangのほとんどのアプリケーションはGinフレームワークを
+- https://gin-gonic.github.io/gin/
+
 ## Python
 
 [WIP]
 
 Wantedlyでは自然言語処理や機械学習のためのサーバにPythonを使うことがあります。
 
+### Tornado
 
+Pythonの殆どのアプリケーションロジックはTornadoを使ってAPI化されています。
 
+- http://www.tornadoweb.org/en/stable/
