@@ -28,20 +28,25 @@ Railsのコンセプトを理解して、最低限のアプリを書けるよう
 
 ## Golang
 
-[WIP]
-
 WantedlyではAPIサーバにGo言語を使うことがあります。
 
 ### Gin
 
-GolangのほとんどのアプリケーションはGinフレームワークを
+GolangのほとんどのアプリケーションはGinフレームワークを使っています。
 - https://gin-gonic.github.io/gin/
 
-## Python
+内部で使っているもので事前にある程度学んでおくと良いものは以下です。
+
+- ORマッパー [gorm](https://github.com/jinzhu/gorm) [doc](http://jinzhu.me/gorm/)
 
 [WIP]
 
+## Python
+
 Wantedlyでは自然言語処理や機械学習のためのサーバにPythonを使うことがあります。
+
+基本的にPythonはRestfulなサーバーよりも特定の機能を持ったシンプルなサーバーを作ることが多いので、サーバーのフレームワークとしてはTornadoを採用しています。
+シンプルさと、ある程度肥大化した場合の機能も備えている絶妙なバランスと言う判断です。
 
 ### Tornado
 
