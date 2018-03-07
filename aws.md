@@ -55,12 +55,12 @@ http://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/using-regions-availabil
 - ストレージは**インスタンスストア** と **EBS (Elastic Block Store)** が存在する
   - EBS は 外付け HDD / SSD みたいなもの
 - 1時間単位で課金
-- Wantedly では約200台のインスタンスが稼働している
+- Wantedly では約250台のインスタンスが稼働している
   - 本番環境は c4
   - ステージング環境は m4
   - Elasticsearch は r3
   - 機械学習用に g2
-  - Kubernetes クラスタに24台 (5 + 12 + 7)
+  - Kubernetes クラスタに 61台 (27 + 27 + 7)
 - **Elastic IP** を利用して固定 Public IP 割当
 
 ## ELB
@@ -75,7 +75,6 @@ http://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/using-regions-availabil
 - Classic Load Balancer
 - 1年前までは ELB といえばこれだった
 - プロトコル関係なしにバランシング
-- Kubernetes 上のサービス前段にいるのはこれ
 
 ### ALB
 
@@ -86,7 +85,6 @@ http://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/using-regions-availabil
 - (ALB <-> クライアント) HTTP/2 対応
   - バックエンドと HTTP/2 したいなら CLB
 - Path-based / Host-based rule
-- 非 Kubernetes サービスの前段にいる
 
 ## ECS
 
