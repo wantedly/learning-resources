@@ -7,7 +7,7 @@ Wantedlyのインフラは、Dockerを使って動作しています。Dockerコ
 
 社員・長期インターンとしてWeb開発を行っていく人に、最低限知ってほしい情報
 
-- [AWS at Wantedly](https://gist.github.com/dtan4/d8cc932f64299f6ed73652eddb6ab9ff)
+- [AWS at Wantedly](aws.md)
 - [Docker を Production で使い続ける理由](https://www.wantedly.com/companies/wantedly/post_articles/27548)
 - [Dockerを使ってみよう](https://github.com/wantedly/paus/blob/master/doc/tutorial-docker.md)
 - [Kubernetes 速習会](http://qiita.com/koudaiii/items/d0b3b0b78dc44d97232a)
