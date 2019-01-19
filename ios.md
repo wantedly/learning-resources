@@ -19,6 +19,7 @@ iOS
 - [NSScreencast](https://nsscreencast.com/episodes) 動画で学べる。エピソードごとにソースコードも付いている。良質なコンテンツが多い。
 - [Realm Academy](https://academy.realm.io/section/apple/) ([日本語動画](https://academy.realm.io/jp/section/apple/)) Realm が発信している。カンファレンスの発表などを記事にしたコンテンツが多い。中級者向けのトピックが多い。
 - [objc](https://www.objc.io/issues/) 中級~上級者向けの話題を扱う。Objective-C が主流だった時代に実装のベストプラクティスや応用技術について考察して発信していたサイト。最近は書籍の出版やインタビュー動画の配信を行なっている。
+- [UI Testing Quick Guide](https://useyourloaf.com/blog/ui-testing-quick-guide/) XCUITestについて簡単にまとまっている。この記事の内容だけで十分に使い方は理解できると思う。
 
 ## 書籍
 
