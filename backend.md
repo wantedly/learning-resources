@@ -30,14 +30,20 @@ Railsのコンセプトを理解して、最低限のアプリを書けるよう
 
 WantedlyではAPIサーバにGo言語を使うことがあります。
 
-### Gin
+### grapi
 
-GolangのほとんどのアプリケーションはGinフレームワークを使っています。
-- https://gin-gonic.github.io/gin/
+Golangのほとんどのアプリケーションは grapi を利用し gRPC + grpc-gateway で実装されています。
+- https://github.com/izumin5210/grapi
+- Go Conference での発表資料
+  - [grapi: Bulding JSON API server with grpc-gateway for microservices - Speaker Deck](https://speakerdeck.com/izumin5210/grapi-bulding-json-api-server-with-grpc-gateway-for-microservices)
 
 内部で使っているもので事前にある程度学んでおくと良いものは以下です。
 
-- ORマッパー [gorm](https://github.com/jinzhu/gorm) [doc](http://jinzhu.me/gorm/)
+- ORマッパー [SQLBoiler](https://github.com/volatiletech/sqlboiler)
+- Redis クライアント [redigo](https://github.com/gomodule/redigo)
+- [Google の API Design Guilde](https://cloud.google.com/apis/design/)
+- エラーハンドリングのやりかた :point_right: [\`Wrap(err)\` in production - Speaker Deck](https://speakerdeck.com/izumin5210/wrap-err-in-production)
+
 
 [WIP]
 
