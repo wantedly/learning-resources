@@ -37,12 +37,36 @@ Golangのほとんどのアプリケーションは grapi を利用し gRPC + gr
 - Go Conference での発表資料
   - [grapi: Bulding JSON API server with grpc-gateway for microservices - Speaker Deck](https://speakerdeck.com/izumin5210/grapi-bulding-json-api-server-with-grpc-gateway-for-microservices)
 
-内部で使っているもので事前にある程度学んでおくと良いものは以下です。
 
-- ORマッパー [SQLBoiler](https://github.com/volatiletech/sqlboiler)
-- Redis クライアント [redigo](https://github.com/gomodule/redigo)
-- [Google の API Design Guilde](https://cloud.google.com/apis/design/)
-- エラーハンドリングのやりかた :point_right: [\`Wrap(err)\` in production - Speaker Deck](https://speakerdeck.com/izumin5210/wrap-err-in-production)
+### よく使うパッケージ・ツール・フレームワーク
+
+- フレームワーク
+    - Web framework : [grapi](https://github.com/izumin5210/grapi)
+    - Pubsub worker : [subee](https://github.com/wantedly/subee)
+- ミドルウェアのクライアント
+    - RDB の ORM : [SQLBoiler](https://github.com/volatiletech/sqlboiler)
+    - Redis クライアント : [redigo](https://github.com/gomodule/redigo)
+- テスト
+    - オブジェクト比較 : [github.com/google/go-cmp](https://github.com/google/go-cmp)
+    - モック  : [gomock & mockgen](https://github.com/golang/mock)
+    - See also
+        - [Advanced Testing with Go - Speaker Deck](https://speakerdeck.com/mitchellh/advanced-testing-with-go)
+        - [Tips for develoepr-friendly testing #golangtokyo - Speaker Deck](https://speakerdeck.com/izumin5210/tips-for-develoepr-friendly-testing-number-golangtokyo)
+- ツール
+    - `.env` : [direnv](https://github.com/direnv/direnv)
+        - See also [基本セット - Create a new application with Golang](./new-app.md#%E5%9F%BA%E6%9C%AC%E3%82%BB%E3%83%83%E3%83%88)
+    - ツール管理 : [gex](https://github.com/izumin5210/gex)
+    - Lint
+        - See also [Lint & eviewdog - Create a new application with Golang](https://github.com/wantedly/dev-docs/blob/master/go/new-app.md#lint--reviewdog)
+        - [Reviewdog](https://github.com/reviewdog/reviewdog)
+        - [golangci-lint](https://github.com/golangci/golangci-lint)
+        - [wraperr](https://github.com/srvc/wraperr)
+- その他
+    - エラーハンドリング : [github.com/srvc/fail](https://github.com/srvc/fail)
+        - See also [\`Wrap(err)\` in production - Speaker Deck](https://speakerdeck.com/izumin5210/wrap-err-in-production)
+    - DI : [github.com/google/wire](https://github.com/google/wire)
+        - See also [google/wireを使ったDIとDI関数のシグネチャについて #go - My External Storage](https://budougumi0617.github.io/2018/12/14/how-to-use-google-wire/)
+
 
 
 [WIP]
