@@ -24,6 +24,13 @@
   - [Reactの流儀](https://ja.reactjs.org/docs/thinking-in-react.html)
 - [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0) 設計の考え方として参考にしています。
 - [Storybook](https://storybook.js.org/) コンポーネント開発にはStorybookを用いています。
+
+### TypeScript
+
+- [TypeScript 公式ドキュメント](https://www.typescriptlang.org/docs/) 
+- [TypeScript Deep Dive](https://basarat.gitbook.io/typescript/) TypeScript だけではなくJavaScript や JSX 記法、React にも触れられて、特に初学者にお勧めです。
+  - 日本語ver: https://typescript-jp.gitbook.io/deep-dive/
+
 ### BFF
 
 - [フロントエンドに型の秩序を与えるGraphQLとTypeScript](https://www.wantedly.com/companies/wantedly/post_articles/183567) BFFによるスキーマファーストな開発を行なっています。
