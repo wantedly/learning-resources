@@ -31,7 +31,7 @@
 
 ### Design Syetem
 
-- [React でデザインシステムを正しく実装する - コンポーネントカタログを超えて](https://www.wantedly.com/companies/wantedly/post_articles/302873) フロントエンドのコンポーネント開発ではデザインシステムの実装を用います。
+- [React でデザインシステムを正しく実装する - コンポーネントカタログを超えて](https://www.wantedly.com/companies/wantedly/post_articles/302873)
 - [Wantedly UI Components](https://www.figma.com/community/file/994992887565225147)
 
 ### その他
