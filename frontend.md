@@ -1,23 +1,39 @@
 フロントエンド
 =============
 
-viewのtemaplateはHaml記法、CSSはSCSS記法で書いています。JavaScriptは概ねCoffeeScriptですが、Reactを導入している箇所はBabelでES2015で書いています。JavaScriptのフレームワークは歴史的経緯で複数のフレームワークが混在しています。
+## 技術スタック
 
-いきなり全ての言語仕様、フレームワークを覚えるのは無理なので、必要に応じて覚えていきましょう。
+以下がメインで使われています。
 
-- [Haml](http://haml.info/)
-- [Sass](http://sass-lang.com/)
-- [CoffeeScript](http://coffeescript.org/)
-- [jQuery](http://jquery.com/)
-- ES2015 (ES6) 
-  - [Learn ES2015](https://babeljs.io/docs/learn-es2015/) BabelのES2015チュートリアル  
-- webpack
-  - [webpack で始めるイマドキのフロントエンド開発](http://qiita.com/yosisa/items/61cfd3ede598e194813b)
-- [React](https://facebook.github.io/react/) 新しいところはReactにしていく方針です。
-  - [Redux](https://github.com/reactjs/redux) Reactと一緒にReduxを使っています。
-  - [CSS Modules](https://github.com/css-modules/css-modules) Reactと一緒にCSS Modulesを使っています。
-  - [React + Reduxを使ったWebアプリケーション開発速習会](http://qiita.com/shimpeiws/items/df31e2d70cc67c68115d)
-- [AngularJS](https://angularjs.org/) 古いところはAngularです。Wantedlyでは1.2系と1.4系を使っています。
-- [Backbone.js](http://backbonejs.org/) もっと古いところはBackbone.jsです。
+- [React](https://ja.reactjs.org/docs/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [GraphQL](https://graphql.org/)
+  - [Nexus](https://github.com/graphql-nexus/nexus) (BFF Server)
+  - [Apollo Client](https://www.apollographql.com/docs/react/)
 
+また、一部の古いページには、Haml, JavaScript, Angular が用いられています。
 
+## 参考リンク
+
+開発の際の参考にすると良いリファレンス
+
+### React
+
+- [React ドキュメント](https://ja.reactjs.org/docs) 以下の章は特にお勧めの章です。
+  - [フックの導入](https://ja.reactjs.org/docs/hooks-intro.html)
+  - [Reactの流儀](https://ja.reactjs.org/docs/thinking-in-react.html)
+- [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0) 設計の考え方として参考にしています。
+- [Storybook](https://storybook.js.org/) コンポーネント開発にはStorybookを用いています。
+### BFF
+
+- [フロントエンドに型の秩序を与えるGraphQLとTypeScript](https://www.wantedly.com/companies/wantedly/post_articles/183567) BFFによるスキーマファーストな開発を行なっています。
+- [Web API に秩序を与える Protocol Buffers](https://speakerdeck.com/south37/protocol-buffers-for-web-api-number-builderscon) BFFより裏側の Web API のスキーマ管理には Protocol Buffers を使用しています。
+
+### Design Syetem
+
+- [React でデザインシステムを正しく実装する - コンポーネントカタログを超えて](https://www.wantedly.com/companies/wantedly/post_articles/302873) フロントエンドのコンポーネント開発ではデザインシステムの実装を用います。
+- [Wantedly UI Components](https://www.figma.com/community/file/994992887565225147)
+
+### その他
+
+- [frolint](https://github.com/wantedly/frolint) Wantedly共通のLint設定が含まれています。
