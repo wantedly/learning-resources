@@ -9,7 +9,6 @@ WantedlyのRailsレポジトリでは概ねGitHubフローを採用していま�
 
 もしGitについての理解が必要な場合は以下のURLを参考にしてください。
 
-- [もっと早く知りたかった！ Gitが鬼のようにわかるスライド厳選7選](http://www.find-job.net/startup/7-git-slides) とりあえず簡単に理解するにはこれ。
 - [ProGit](https://git-scm.com/book/ja/v2) しっかり理解するならこれ。時間のある時に。
 
 issueとpull requestの作り方、コードレビューをうけるときのコツについても理解を深めてください。とくにチーム開発未経験の場合、仕事の進み方に大きく影響がでます。
